@@ -34,6 +34,7 @@
   + git merge <> : 메인 코드에 합치기
   + git restore <> : add하지 않은 수정사항 취소
   + git reset : 이미 commit한 것을 전으로 되돌리기
+  + git status : 현재 디렉터리의 변화를 보여줌
 --------------------------------
 #### 4. git 실습
 + txt파일 만든 후, 수정 -> add -> commit 해보기
