@@ -30,7 +30,7 @@
 + 기본 개념
   + 디렉터리 : window에서는 파일이라고 부르지만, 리눅스나 우분투에서는 디렉터리라고 부른다고 한다.
 + git branch
-  + 
+  + 한 코드로 여러명이 건드릴 때, branch를 이용하여 여러명이서 한 코드를 수정할 수 있도록 한다.
 + 자주 나오는 명령어
   + cd : 폴더의 이동을 표현할 때 사용
     + cd git_practice -> 폴더 안으로 이동
@@ -47,7 +47,7 @@
   + git status : 현재 디렉터리의 변화를 보여줌
 --------------------------------
 #### 5. git 실습
-+ txt파일 만든 후, 수정 -> add -> commit 해보기
+1. txt파일 만든 후, 수정 -> add -> commit 해보기
   + cd ~ //홈 디렉터리로 이동
   + mkdir git_practice //git-practice라는 이름의 새 폴더 생성
   + cd git_practice //생성한 폴더로 이동
@@ -56,7 +56,11 @@
   + echo "Hello Git!" > test.txt //출력할 글자를 test.txt로 보냄.
     + echo는 c언어에서 printf와 같은 역할을 한다.
   + git status//상태 확인
+
+  + 
   <img width="1592" height="427" alt="스크린샷 2026-09-02 03-10-40" src="https://github.com/user-attachments/assets/1ae5481a-2366-4efe-9fac-f3fcf0c552f8" />
+
+  
   test.txt가 빨간색으로 떠있다. -> git이 새 파일이 생겼음을 감지함.
   + git add test.txt//add
   <img width="1413" height="277" alt="스크린샷 2026-09-02 03-50-03" src="https://github.com/user-attachments/assets/76d514a6-b8b4-4ab8-98f9-7d6b5fc547f3" />
@@ -65,4 +69,8 @@
   + git log --oneline//커밋 기록 확인
   <img width="1274" height="178" alt="스크린샷 2026-09-02 04-03-37" src="https://github.com/user-attachments/assets/2258b6b4-9e51-4411-9306-2b9d64353b21" />
 
+2. branch 해보기
+  <img width="1089" height="282" alt="Screenshot from 2026-09-02 17-58-54" src="https://github.com/user-attachments/assets/f3b2280a-e8ef-4a06-a078-2fdaf84c566d" />
+  + git branch<>//test3복사본 생성
+  + git branch//test3복사본이 잘 생성되었는지 확인
 
