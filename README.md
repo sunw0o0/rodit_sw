@@ -56,11 +56,7 @@
   + echo "Hello Git!" > test.txt //출력할 글자를 test.txt로 보냄.
     + echo는 c언어에서 printf와 같은 역할을 한다.
   + git status//상태 확인
-
-  + 
   <img width="1592" height="427" alt="스크린샷 2026-09-02 03-10-40" src="https://github.com/user-attachments/assets/1ae5481a-2366-4efe-9fac-f3fcf0c552f8" />
-
-  
   test.txt가 빨간색으로 떠있다. -> git이 새 파일이 생겼음을 감지함.
   + git add test.txt//add
   <img width="1413" height="277" alt="스크린샷 2026-09-02 03-50-03" src="https://github.com/user-attachments/assets/76d514a6-b8b4-4ab8-98f9-7d6b5fc547f3" />
@@ -73,4 +69,12 @@
   <img width="1089" height="282" alt="Screenshot from 2026-09-02 17-58-54" src="https://github.com/user-attachments/assets/f3b2280a-e8ef-4a06-a078-2fdaf84c566d" />
   + git branch<>//test3복사본 생성
   + git branch//test3복사본이 잘 생성되었는지 확인
+  + git switch test3//해당 branch로 이동
+  + echo "김선우김선우김선우" >> test.txt
+  + git add test.txt
+  + git commit -m "test3 branch 연습하기"
+  + git switch master
+  + cat test.txt//아직 합치기 전이므로 이전 txt가 나온다.
+  + git merge test3
+  + cat test.txt//이제 김선우김선우김선우가 나온다.
 
